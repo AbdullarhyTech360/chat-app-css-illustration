@@ -1,0 +1,19 @@
+// Mixins
+@mixin flex-center($justify-content, $align-items, $flex-direction, $gap) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: $align-items;
+    flex-direction: $flex-direction;
+    gap: $gap;
+  }
+  @mixin left-chat() {
+    color: $chat-left-color;
+    width: 70%;
+    font-weight: 600;
+    background-color: lighten($color: $chat-left-color, $amount: 42%);
+    padding: 13px;
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    font-size: 0.8em;
+  }
+  

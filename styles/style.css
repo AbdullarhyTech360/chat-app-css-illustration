@@ -239,8 +239,9 @@ body .container .mobile .inner-mobile main .category:last-child .send-icon {
   right: -222px;
   display: flex;
   justify-content: center;
-  font-weight: bold;
   align-items: center;
+  flex-direction: column;
+  gap: 0;
   padding: 0;
   background: hsl(271, 36%, 24%);
   border-radius: 50%;
