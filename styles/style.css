@@ -298,7 +298,7 @@ body .container .main-text p {
 }
 @media screen and (min-width: 1300px) {
   .container {
-    margin-top: -140px !important;
+    margin-top: -120px !important;
     margin-left: 70px !important;
   }
   .main-text {
